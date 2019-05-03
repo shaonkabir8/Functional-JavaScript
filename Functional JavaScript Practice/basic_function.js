@@ -22,10 +22,13 @@ function divition (a,b) {
 }
 // Another Way: Closure Function ==>
 function calculator (a,b) {
-    return plus(a,b)
+    return plus(a,b,c);
 }
 var result = calculator(10,15);
 console.log(result);
+
+
+
 //  Other Way: Call back Function ==>
 function calculatorMain (b,c , plusFunction){
     return plusFunction=  b + c ;
@@ -41,3 +44,9 @@ var usdCurrency = 80;
 var taka = 10000;
 var usd = taka / usdCurrency;
 usd;
+
+
+
+
+
+// Basic Calculator:
